@@ -1,0 +1,11 @@
+if(isset($_POST['save'])) {
+	$judul = $_POST['judul'];
+	$deskripsi = $_POST['deskripsi'];
+	$foto = $_POST['foto'];
+	$ketersediaan = $_POST['ketersediaan'];
+
+	$db->query("INSERT INTO buku  VALUES (null,'".$judul."','".$deskripsi."','".$foto."','".$ketersediaan."')");
+	mysqli_query($db, $query);
+	header('location: buku.php');
+}
+

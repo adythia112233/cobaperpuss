@@ -1,0 +1,10 @@
+body{
+	margin:0;
+}
+
+#side{
+	width:450px;
+	height:450px;
+	background color: firebrick;
+	float: right;
+}

@@ -1,0 +1,32 @@
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid orange;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-size: 10px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 5px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+input[type=submit]{
+	padding:5px;
+	font-size:15px;
+	border:none;
+	border-radius:5px;
+    background-color: white;
+    color: black;
+    border: 2px solid #f88601;
+}
+
+input[type=submit]:hover {
+    background-color: #f88601;
+    color: white;
+}

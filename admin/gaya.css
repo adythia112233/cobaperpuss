@@ -1,0 +1,17 @@
+form{
+	width:50%;
+	margin:2%auto;
+	text-align: left;
+	padding:20px;
+	border:1px solid #bbbbbb;
+	border-radius:5px;
+}
+
+input [type=text] {
+  
+   
+   	color:grey;
+	border-radius:5px;
+	font-size:15px;
+
+}
